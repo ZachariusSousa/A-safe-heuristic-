@@ -1,6 +1,6 @@
 # A* Heuristic – Safer Pathfinding in Tokyo
 
-This program was developed to create a quad tree from crash data gathered from taxis in tokyo.  As the number of crashes increases to a limit in a single quad it will split into 4 more quads and so on and so forth.  The A* algorithm then uses these depths as a heurisitic.  It's not very intuitive to use sorry I built this without users in mind.
+Finds viable routes that minimize crash exposure instead of only minimizing travel time or distance. This repo builds a risk-aware quadtree from Tokyo taxi crash data and plugs it into an A* search as a custom heuristic and cost modifier.
 
 
 <img width="497" height="548" alt="AStar3" src="https://github.com/user-attachments/assets/c21f0a63-b67a-4535-960c-d7e4a42d58eb" />
